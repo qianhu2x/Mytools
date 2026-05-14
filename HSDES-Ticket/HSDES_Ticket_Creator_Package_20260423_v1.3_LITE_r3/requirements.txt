@@ -1,5 +1,0 @@
-openpyxl>=3.1.0
-# Requires Python 3.12 or 3.13. Playwright is not available for Python 3.14 yet.
-playwright>=1.40.0
-pandas>=2.0.0
-# No external dependencies are required for the current REST API version.

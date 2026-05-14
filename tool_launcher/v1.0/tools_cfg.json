@@ -1,0 +1,56 @@
+{
+  "nta_bios_log_analysis": {
+    "exe": "python",
+    "param": "nta_bios_log_analysis_260423_1000.py",
+    "log_path": "C:\\Users\\qianhu2x\\Downloads\\Xeon\\CRB_Johnson_City\\NTA_DDR_log\\RMT\\15019375492-IntelJNC2_B05_SM55-S07S_1DPC_8000_32D57_Q9WJ_RMT_1x1x25_0509",
+    "cwd": "C:\\Users\\qianhu2x\\Downloads\\Xeon\\CRB_Johnson_City\\NTA_DDR_log\\dimm_error_analysis\\"
+  },
+  "oks_rmt_parser": {
+    "exe": "python",
+    "param": "oks_rmt_parser.py",
+    "log_path": "",
+    "cwd": "C:\\DDR\\drive\\m13a.dev-0506\\scripts\\"
+  },
+  "oks_ewl_finder": {
+    "exe": "python",
+    "param": "oks_ewl_finder.py",
+    "log_path": "",
+    "cwd": "C:\\DDR\\drive\\m13a.dev-0506\\scripts\\"
+  },
+  "dimm_error_analysis": {
+    "exe": "python",
+    "param": "dimm_error_analysis.py",
+    "log_path": "C:\\Users\\qianhu2x\\Downloads\\Xeon\\CRB_Johnson_City\\NTA_DDR_log\\dimm_error_analysis\\source\\20260422_085540.xlsx",
+    "cwd": "C:\\Users\\qianhu2x\\Downloads\\Xeon\\CRB_Johnson_City\\NTA_DDR_log\\dimm_error_analysis\\"
+  },
+  "temperature_check_pythonsvlog": {
+    "exe": "python",
+    "param": "temperature_check_pythonsvlog.py",
+    "log_path": "C:\\Users\\qianhu2x\\Downloads\\Xeon\\CRB_Johnson_City\\NTA_DDR_log\\Memtest86\\15019375496-IntelJNC2_B05_SM55-S07S_1DPC_8000_32D57_Q9WJ_RMT_Memtest86_0511\\Memtest86-pythonsv-0511.log",
+    "cwd": "C:\\Users\\qianhu2x\\Downloads\\Xeon\\CRB_Johnson_City\\NTA_DDR_log\\dimm_error_analysis\\"
+  },
+  "hsd2obsidian": {
+    "exe": "python",
+    "param": "hsd2obsidian.py",
+    "log_path": "",
+    "cwd": "C:\\Users\\qianhu2x\\Downloads\\Xeon\\tools\\personal.yfu23.h2o-master\\"
+  },
+  "hsdes_ticket_creator": {
+    "exe": "python",
+    "cwd": "C:\\Users\\qianhu2x\\Downloads\\Xeon\\tools\\HSDES-Ticket\\HSDES_Ticket_Creator_Package_20260509_v1.3_LITE_r6",
+    "param": "hsdes_ticket_creator.py --excel \"WO_Create_Template.xlsx\" --sheet \"WO_Template_xfusion_DDR\"",
+    "log_path": ""
+  },
+  "MonkeyTCC": {
+    "exe": "",
+    "cwd": "C:\\DDR\\drive\\yfu23.hsdmonkey\\",
+    "param": "HsdMonkeyTCC.exe",
+    "log_path": ""
+  },
+  "Monkey": {
+    "exe": "",
+    "cwd": "C:\\DDR\\drive\\yfu23.hsdmonkey",
+    "param": "HsdMonkey.exe",
+    "log_path": ""
+  }
+}

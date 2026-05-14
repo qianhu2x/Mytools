@@ -1,0 +1,287 @@
+2026-04-28 14:13:49,009 [INFO] 读取 Excel: WO_Template-xfusion-DDR.xlsx  工作表: WO_Template  共 4 条记录
+2026-04-28 14:13:49,010 [INFO] 
+============================================================
+2026-04-28 14:13:49,010 [INFO] 🧭 首次运行向导
+2026-04-28 14:13:49,011 [INFO] ============================================================
+2026-04-28 14:13:49,011 [INFO] Excel: WO_Template-xfusion-DDR.xlsx
+2026-04-28 14:13:49,011 [INFO] 记录数: 4
+2026-04-28 14:13:49,012 [INFO] API URL: https://hsdes.intel.com/ws/ESService
+2026-04-28 14:13:49,012 [INFO] Cookie缓存: 启用 (C:\Users\qianhu2x\.hsdes_cookie_cache)
+2026-04-28 14:13:49,012 [INFO] 
+请选择本次执行方式:
+2026-04-28 14:13:49,013 [INFO] 1. 先 dry-run 预览 payload 后退出
+2026-04-28 14:13:49,013 [INFO] 2. 直接正式创建 ticket
+2026-04-28 14:13:49,013 [INFO] 3. 退出
+2026-04-28 14:13:55,812 [INFO] 已切换为 dry-run 模式。
+2026-04-28 14:13:55,813 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5
+2026-04-28 14:13:55,813 [INFO]   [DRY RUN] payload = {"requests": [{"api_client": "HSD-ES Article", "tran_id": "7D81E46A-74CD-4705-BB86-ADFFCA7A5920", "command": "insert_record_with_fetch", "command_args": {"tenant": "server_platf", "subject": "test_case"}, "var_args": [{"status": "open"}, {"reason": "new"}, {"status_reason": "open.new"}, {"send_mail": "true"}, {"family": "server_platform"}, {"test_case.owner_team": "DCPAE_ASIA"}, {"title": "[WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5"}, {"description": "CPU: DMR-AP A0 ( PPIN = 57BDF6CAD8220A71, QDF = Q9WJ )<br/>- Board: xFusion 2188H V9 Pre-EVT (SN: 02YACYLHS3000003)<br/>- Memory: XF55-H02E (RE32)<br/>- Config: 1DPC 8000<br/><br/>- BIOS: 32D91_MMC770<br/>- Criteria: N/C<br/>- Data sample size: 2x5x5<br/>- Population: 1DPC Full Populated<br/>- Memory Info:"}, {"server_platf.test_case.configuration": "Oak Stream Platform 1 DMR-DMRAP.DDR5"}, {"notify": "qishen, chenting"}, {"owner": "qianhu2x"}, {"test_case.bios_rev": "32D91"}, {"test_case.dimm_part_number": "XF55-H02E"}, {"test_case.dimm_size": "32GB"}, {"test_case.dimm_vendor": "SK Hynix"}, {"test_case.free_tag_1": "PPIN = 57BDF6CAD8220A71, QDF = Q9WJ"}, {"test_case.free_tag_2": "XF55-H02E"}, {"test_case.config_description": "RE32"}, {"test_case.actual_start": "2026ww18.0"}, {"test_case.board_id": "xFusion 2188H V9"}, {"test_case.board_platform_type": "customer"}, {"test_case.devices_or_dimms_per_channel": "1"}, {"test_case.tested_speed": "8000"}, {"stepping": "A0"}, {"segment": "platform"}, {"notes": "RMT_2X5X5"}], "copy_args": [{"send_mail": "true"}]}]}
+2026-04-28 14:13:55,814 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling
+2026-04-28 14:13:55,814 [INFO]   [DRY RUN] payload = {"requests": [{"api_client": "HSD-ES Article", "tran_id": "6735A1E7-82D7-46D7-A3A1-1099C780031F", "command": "insert_record_with_fetch", "command_args": {"tenant": "server_platf", "subject": "test_case"}, "var_args": [{"status": "open"}, {"reason": "new"}, {"status_reason": "open.new"}, {"send_mail": "true"}, {"family": "server_platform"}, {"test_case.owner_team": "DCPAE_ASIA"}, {"title": "[WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling"}, {"description": "CPU: DMR-AP A0 ( PPIN = 57BDF6CAD8220A71, QDF = Q9WJ )<br/>- Board: xFusion 2188H V9 Pre-EVT (SN: 02YACYLHS3000003)<br/>- Memory: XF55-H02E (RE32)<br/>- Config: 1DPC 8000<br/><br/>- BIOS: 32D91_MMC770<br/>- Criteria: Error Free<br/>- Data sample size: 9999<br/>- Population: 1DPC Full Populated<br/>- Memory Info:"}, {"server_platf.test_case.configuration": "Oak Stream Platform 1 DMR-DMRAP.DDR5"}, {"notify": "qishen, chenting"}, {"owner": "qianhu2x"}, {"test_case.bios_rev": "32D91"}, {"test_case.dimm_part_number": "XF55-H02E"}, {"test_case.dimm_size": "32GB"}, {"test_case.dimm_vendor": "SK Hynix"}, {"test_case.free_tag_1": "PPIN = 57BDF6CAD8220A71, QDF = Q9WJ"}, {"test_case.free_tag_2": "XF55-H02E"}, {"test_case.config_description": "RE32"}, {"test_case.actual_start": "2026ww18.0"}, {"test_case.board_id": "xFusion 2188H V9"}, {"test_case.board_platform_type": "customer"}, {"test_case.devices_or_dimms_per_channel": "1"}, {"test_case.tested_speed": "8000"}, {"stepping": "A0"}, {"segment": "platform"}, {"notes": "Power_Cycling"}], "copy_args": [{"send_mail": "true"}]}]}
+2026-04-28 14:13:55,815 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress
+2026-04-28 14:13:55,816 [INFO]   [DRY RUN] payload = {"requests": [{"api_client": "HSD-ES Article", "tran_id": "759289B3-4B51-47DB-910F-C1285FEB851B", "command": "insert_record_with_fetch", "command_args": {"tenant": "server_platf", "subject": "test_case"}, "var_args": [{"status": "open"}, {"reason": "new"}, {"status_reason": "open.new"}, {"send_mail": "true"}, {"family": "server_platform"}, {"test_case.owner_team": "DCPAE_ASIA"}, {"title": "[WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress"}, {"description": "CPU: DMR-AP A0 ( PPIN = 57BDF6CAD8220A71, QDF = Q9WJ )<br/>- Board: xFusion 2188H V9 Pre-EVT (SN: 02YACYLHS3000003)<br/>- Memory: XF55-H02E (RE32)<br/>- Config: 1DPC 8000<br/><br/>- BIOS: 32D91_MMC770<br/>- Criteria: Error Free<br/>- Data sample size: N/A<br/>- Population: 1DPC Full Populated<br/>- Memory Info:"}, {"server_platf.test_case.configuration": "Oak Stream Platform 1 DMR-DMRAP.DDR5"}, {"notify": "qishen, chenting"}, {"owner": "qianhu2x"}, {"test_case.bios_rev": "32D91"}, {"test_case.dimm_part_number": "XF55-H02E"}, {"test_case.dimm_size": "32GB"}, {"test_case.dimm_vendor": "SK Hynix"}, {"test_case.free_tag_1": "PPIN = 57BDF6CAD8220A71, QDF = Q9WJ"}, {"test_case.free_tag_2": "XF55-H02E"}, {"test_case.config_description": "RE32"}, {"test_case.actual_start": "2026ww18.0"}, {"test_case.board_id": "xFusion 2188H V9"}, {"test_case.board_platform_type": "customer"}, {"test_case.devices_or_dimms_per_channel": "1"}, {"test_case.tested_speed": "8000"}, {"stepping": "A0"}, {"segment": "platform"}, {"notes": "I3C Stress"}], "copy_args": [{"send_mail": "true"}]}]}
+2026-04-28 14:13:55,816 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86
+2026-04-28 14:13:55,816 [INFO]   [DRY RUN] payload = {"requests": [{"api_client": "HSD-ES Article", "tran_id": "9867FDBB-8ACD-4586-B0D4-3504954537A8", "command": "insert_record_with_fetch", "command_args": {"tenant": "server_platf", "subject": "test_case"}, "var_args": [{"status": "open"}, {"reason": "new"}, {"status_reason": "open.new"}, {"send_mail": "true"}, {"family": "server_platform"}, {"test_case.owner_team": "DCPAE_ASIA"}, {"title": "[WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86"}, {"description": "CPU: DMR-AP A0 ( PPIN = 57BDF6CAD8220A71, QDF = Q9WJ )<br/>- Board: xFusion 2188H V9 Pre-EVT (SN: 02YACYLHS3000003)<br/>- Memory: XF55-H02E (RE32)<br/>- Config: 1DPC 8000<br/><br/>- BIOS: 32D91_MMC770<br/>- Criteria: Error Free<br/>- Data sample size: N/A<br/>- Population: 1DPC Full Populated<br/>- Memory Info:"}, {"server_platf.test_case.configuration": "Oak Stream Platform 1 DMR-DMRAP.DDR5"}, {"notify": "qishen, chenting"}, {"owner": "qianhu2x"}, {"test_case.bios_rev": "32D91"}, {"test_case.dimm_part_number": "XF55-H02E"}, {"test_case.dimm_size": "32GB"}, {"test_case.dimm_vendor": "SK Hynix"}, {"test_case.free_tag_1": "PPIN = 57BDF6CAD8220A71, QDF = Q9WJ"}, {"test_case.free_tag_2": "XF55-H02E"}, {"test_case.config_description": "RE32"}, {"test_case.actual_start": "2026ww18.0"}, {"test_case.board_id": "xFusion 2188H V9"}, {"test_case.board_platform_type": "customer"}, {"test_case.devices_or_dimms_per_channel": "1"}, {"test_case.tested_speed": "8000"}, {"stepping": "A0"}, {"segment": "platform"}, {"notes": "Memtest86"}], "copy_args": [{"send_mail": "true"}]}]}
+2026-04-28 14:13:55,817 [INFO] ============================================================
+2026-04-28 14:13:55,817 [INFO] 完成: 成功=4  失败=0  共=4
+2026-04-28 14:13:55,817 [INFO] 分类统计: 无更新=0  更新成功=0  更新失败=0  新建=4
+2026-04-28 14:13:55,822 [INFO] 结果已保存: hsdes_create_results.json
+2026-04-28 14:13:55,822 [INFO] ============================================================
+2026-04-28 14:13:55,823 [INFO] ✅ 创建成功的 Ticket ID:
+2026-04-28 14:13:55,823 [INFO]   行 0: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5 → ticket_id=DRY_RUN
+2026-04-28 14:13:55,823 [INFO]   行 1: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling → ticket_id=DRY_RUN
+2026-04-28 14:13:55,824 [INFO]   行 2: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress → ticket_id=DRY_RUN
+2026-04-28 14:13:55,824 [INFO]   行 3: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86 → ticket_id=DRY_RUN
+2026-04-28 14:13:55,824 [INFO] ============================================================
+2026-04-28 14:14:09,516 [INFO] 读取 Excel: WO_Template-xfusion-DDR.xlsx  工作表: WO_Template  共 4 条记录
+2026-04-28 14:14:09,517 [INFO] 
+============================================================
+2026-04-28 14:14:09,517 [INFO] 🧭 首次运行向导
+2026-04-28 14:14:09,517 [INFO] ============================================================
+2026-04-28 14:14:09,518 [INFO] Excel: WO_Template-xfusion-DDR.xlsx
+2026-04-28 14:14:09,518 [INFO] 记录数: 4
+2026-04-28 14:14:09,519 [INFO] API URL: https://hsdes.intel.com/ws/ESService
+2026-04-28 14:14:09,519 [INFO] Cookie缓存: 启用 (C:\Users\qianhu2x\.hsdes_cookie_cache)
+2026-04-28 14:14:09,520 [INFO] 
+请选择本次执行方式:
+2026-04-28 14:14:09,520 [INFO] 1. 先 dry-run 预览 payload 后退出
+2026-04-28 14:14:09,520 [INFO] 2. 直接正式创建 ticket
+2026-04-28 14:14:09,520 [INFO] 3. 退出
+2026-04-28 14:14:12,648 [INFO] 继续正式创建流程。
+2026-04-28 14:14:12,650 [INFO] ✓ Excel写回预检查通过
+2026-04-28 14:14:12,653 [INFO] ℹ️ Cookie缓存路径: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:14:12,653 [INFO] 
+============================================================
+2026-04-28 14:14:12,654 [INFO] 需要登录HSDES - 请选择认证方式
+2026-04-28 14:14:12,654 [INFO] ============================================================
+2026-04-28 14:14:12,654 [INFO] 方式1: 使用账户密码登录（实验功能，可能不可用）
+2026-04-28 14:14:12,654 [INFO] 方式2: 手动提供Cookie（推荐）
+2026-04-28 14:14:12,655 [INFO] ============================================================
+2026-04-28 14:14:57,415 [INFO] 
+============================================================
+2026-04-28 14:14:57,416 [INFO] 如何获取Cookie:
+2026-04-28 14:14:57,417 [INFO] 1. 打开浏览器访问 https://hsdes.intel.com/appstore/article-one/
+2026-04-28 14:14:57,417 [INFO] 2. 按 F12 打开DevTools
+2026-04-28 14:14:57,418 [INFO] 3. 选择 Application → Cookies
+2026-04-28 14:14:57,419 [INFO] 4. 复制Cookie字符串
+2026-04-28 14:14:57,419 [INFO] 5. 粘贴到下面的输入框中
+2026-04-28 14:14:57,420 [INFO] ============================================================
+
+2026-04-28 14:15:23,903 [ERROR] ❌ Cookie无效或已过期，请确认已完整复制并重新获取
+2026-04-28 14:15:34,385 [INFO] 读取 Excel: WO_Template-xfusion-DDR.xlsx  工作表: WO_Template  共 4 条记录
+2026-04-28 14:15:34,386 [INFO] 
+============================================================
+2026-04-28 14:15:34,386 [INFO] 🧭 首次运行向导
+2026-04-28 14:15:34,386 [INFO] ============================================================
+2026-04-28 14:15:34,386 [INFO] Excel: WO_Template-xfusion-DDR.xlsx
+2026-04-28 14:15:34,387 [INFO] 记录数: 4
+2026-04-28 14:15:34,387 [INFO] API URL: https://hsdes.intel.com/ws/ESService
+2026-04-28 14:15:34,387 [INFO] Cookie缓存: 启用 (C:\Users\qianhu2x\.hsdes_cookie_cache)
+2026-04-28 14:15:34,387 [INFO] 
+请选择本次执行方式:
+2026-04-28 14:15:34,387 [INFO] 1. 先 dry-run 预览 payload 后退出
+2026-04-28 14:15:34,388 [INFO] 2. 直接正式创建 ticket
+2026-04-28 14:15:34,388 [INFO] 3. 退出
+2026-04-28 14:15:37,077 [INFO] 继续正式创建流程。
+2026-04-28 14:15:37,079 [INFO] ✓ Excel写回预检查通过
+2026-04-28 14:15:37,082 [INFO] ℹ️ Cookie缓存路径: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:15:37,082 [INFO] 
+============================================================
+2026-04-28 14:15:37,083 [INFO] 需要登录HSDES - 请选择认证方式
+2026-04-28 14:15:37,083 [INFO] ============================================================
+2026-04-28 14:15:37,083 [INFO] 方式1: 使用账户密码登录（实验功能，可能不可用）
+2026-04-28 14:15:37,084 [INFO] 方式2: 手动提供Cookie（推荐）
+2026-04-28 14:15:37,084 [INFO] ============================================================
+2026-04-28 14:15:39,229 [INFO] 
+============================================================
+2026-04-28 14:15:39,230 [INFO] 如何获取Cookie:
+2026-04-28 14:15:39,230 [INFO] 1. 打开浏览器访问 https://hsdes.intel.com/appstore/article-one/
+2026-04-28 14:15:39,230 [INFO] 2. 按 F12 打开DevTools
+2026-04-28 14:15:39,231 [INFO] 3. 选择 Application → Cookies
+2026-04-28 14:15:39,231 [INFO] 4. 复制Cookie字符串
+2026-04-28 14:15:39,231 [INFO] 5. 粘贴到下面的输入框中
+2026-04-28 14:15:39,232 [INFO] ============================================================
+
+2026-04-28 14:17:55,287 [INFO] 💾 Cookie已保存到本地缓存: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:17:55,288 [INFO] ✅ Cookie已保存，下次执行时会自动使用
+2026-04-28 14:17:55,289 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5
+2026-04-28 14:18:01,976 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: PreinsertServiceImpl::preinsertAndFetch30003: Field test_case.dimm_vendor lookup value SK Hynix is invalid
+2026-04-28 14:18:02,981 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling
+2026-04-28 14:18:13,179 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: PreinsertServiceImpl::preinsertAndFetch30003: Field test_case.dimm_vendor lookup value SK Hynix is invalid
+2026-04-28 14:18:14,193 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress
+2026-04-28 14:18:18,849 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: PreinsertServiceImpl::preinsertAndFetch30003: Field test_case.dimm_vendor lookup value SK Hynix is invalid
+2026-04-28 14:18:19,858 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86
+2026-04-28 14:18:25,238 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: PreinsertServiceImpl::preinsertAndFetch30003: Field test_case.dimm_vendor lookup value SK Hynix is invalid
+2026-04-28 14:18:26,245 [INFO] ============================================================
+2026-04-28 14:18:26,246 [INFO] 完成: 成功=0  失败=4  共=4
+2026-04-28 14:18:26,247 [INFO] 分类统计: 无更新=0  更新成功=0  更新失败=0  新建=0
+2026-04-28 14:18:26,253 [INFO] 结果已保存: hsdes_create_results.json
+2026-04-28 14:18:26,253 [WARNING] 行 0: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5 → PreinsertHandler preinsert Failed: PreinsertServiceImpl::preinsertAndFetch30003: Field test_case.dimm_vendor lookup value SK Hynix is invalid
+2026-04-28 14:18:26,254 [WARNING] 行 1: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling → PreinsertHandler preinsert Failed: PreinsertServiceImpl::preinsertAndFetch30003: Field test_case.dimm_vendor lookup value SK Hynix is invalid
+2026-04-28 14:18:26,254 [WARNING] 行 2: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress → PreinsertHandler preinsert Failed: PreinsertServiceImpl::preinsertAndFetch30003: Field test_case.dimm_vendor lookup value SK Hynix is invalid
+2026-04-28 14:18:26,254 [WARNING] 行 3: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86 → PreinsertHandler preinsert Failed: PreinsertServiceImpl::preinsertAndFetch30003: Field test_case.dimm_vendor lookup value SK Hynix is invalid
+2026-04-28 14:19:32,751 [INFO] 读取 Excel: WO_Template-xfusion-DDR.xlsx  工作表: WO_Template  共 4 条记录
+2026-04-28 14:19:32,753 [INFO] 
+============================================================
+2026-04-28 14:19:32,753 [INFO] 🧭 首次运行向导
+2026-04-28 14:19:32,753 [INFO] ============================================================
+2026-04-28 14:19:32,753 [INFO] Excel: WO_Template-xfusion-DDR.xlsx
+2026-04-28 14:19:32,754 [INFO] 记录数: 4
+2026-04-28 14:19:32,754 [INFO] API URL: https://hsdes.intel.com/ws/ESService
+2026-04-28 14:19:32,754 [INFO] Cookie缓存: 启用 (C:\Users\qianhu2x\.hsdes_cookie_cache)
+2026-04-28 14:19:32,755 [INFO] 
+请选择本次执行方式:
+2026-04-28 14:19:32,755 [INFO] 1. 先 dry-run 预览 payload 后退出
+2026-04-28 14:19:32,755 [INFO] 2. 直接正式创建 ticket
+2026-04-28 14:19:32,755 [INFO] 3. 退出
+2026-04-28 14:19:35,052 [INFO] 继续正式创建流程。
+2026-04-28 14:19:35,056 [ERROR] ❌ Excel文件当前被占用或不可写: WO_Template-xfusion-DDR.xlsx
+请先关闭该文件（包括Excel预览窗口/同步工具占用）后重试。
+2026-04-28 14:19:35,056 [ERROR] 预检查状态文件: hsdes_precheck_status.json
+2026-04-28 14:19:41,999 [INFO] 读取 Excel: WO_Template-xfusion-DDR.xlsx  工作表: WO_Template  共 4 条记录
+2026-04-28 14:19:42,000 [INFO] 
+============================================================
+2026-04-28 14:19:42,000 [INFO] 🧭 首次运行向导
+2026-04-28 14:19:42,000 [INFO] ============================================================
+2026-04-28 14:19:42,001 [INFO] Excel: WO_Template-xfusion-DDR.xlsx
+2026-04-28 14:19:42,001 [INFO] 记录数: 4
+2026-04-28 14:19:42,001 [INFO] API URL: https://hsdes.intel.com/ws/ESService
+2026-04-28 14:19:42,002 [INFO] Cookie缓存: 启用 (C:\Users\qianhu2x\.hsdes_cookie_cache)
+2026-04-28 14:19:42,002 [INFO] 
+请选择本次执行方式:
+2026-04-28 14:19:42,002 [INFO] 1. 先 dry-run 预览 payload 后退出
+2026-04-28 14:19:42,002 [INFO] 2. 直接正式创建 ticket
+2026-04-28 14:19:42,003 [INFO] 3. 退出
+2026-04-28 14:19:43,282 [INFO] 继续正式创建流程。
+2026-04-28 14:19:43,284 [INFO] ✓ Excel写回预检查通过
+2026-04-28 14:19:43,285 [INFO] ℹ️ Cookie缓存路径: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:19:43,286 [INFO] 📂 使用本地缓存的Cookie: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:19:43,745 [INFO] ✓ 缓存的Cookie有效
+2026-04-28 14:19:43,745 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5
+2026-04-28 14:19:51,395 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [notes] is NOT a valid field for server_platf.test_case
+2026-04-28 14:19:52,403 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling
+2026-04-28 14:19:57,966 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [notes] is NOT a valid field for server_platf.test_case
+2026-04-28 14:19:58,972 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress
+2026-04-28 14:20:05,317 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [notes] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:06,327 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86
+2026-04-28 14:20:12,282 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [notes] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:13,290 [INFO] ============================================================
+2026-04-28 14:20:13,290 [INFO] 完成: 成功=0  失败=4  共=4
+2026-04-28 14:20:13,291 [INFO] 分类统计: 无更新=0  更新成功=0  更新失败=0  新建=0
+2026-04-28 14:20:13,300 [INFO] 结果已保存: hsdes_create_results.json
+2026-04-28 14:20:13,300 [WARNING] 行 0: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5 → PreinsertHandler preinsert Failed: [notes] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:13,301 [WARNING] 行 1: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling → PreinsertHandler preinsert Failed: [notes] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:13,301 [WARNING] 行 2: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress → PreinsertHandler preinsert Failed: [notes] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:13,302 [WARNING] 行 3: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86 → PreinsertHandler preinsert Failed: [notes] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:27,928 [INFO] 读取 Excel: WO_Template-xfusion-DDR.xlsx  工作表: WO_Template  共 4 条记录
+2026-04-28 14:20:27,928 [INFO] 
+============================================================
+2026-04-28 14:20:27,929 [INFO] 🧭 首次运行向导
+2026-04-28 14:20:27,929 [INFO] ============================================================
+2026-04-28 14:20:27,929 [INFO] Excel: WO_Template-xfusion-DDR.xlsx
+2026-04-28 14:20:27,929 [INFO] 记录数: 4
+2026-04-28 14:20:27,929 [INFO] API URL: https://hsdes.intel.com/ws/ESService
+2026-04-28 14:20:27,929 [INFO] Cookie缓存: 启用 (C:\Users\qianhu2x\.hsdes_cookie_cache)
+2026-04-28 14:20:27,929 [INFO] 
+请选择本次执行方式:
+2026-04-28 14:20:27,929 [INFO] 1. 先 dry-run 预览 payload 后退出
+2026-04-28 14:20:27,930 [INFO] 2. 直接正式创建 ticket
+2026-04-28 14:20:27,930 [INFO] 3. 退出
+2026-04-28 14:20:28,938 [INFO] 继续正式创建流程。
+2026-04-28 14:20:28,940 [INFO] ✓ Excel写回预检查通过
+2026-04-28 14:20:28,943 [INFO] ℹ️ Cookie缓存路径: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:20:28,944 [INFO] 📂 使用本地缓存的Cookie: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:20:29,370 [INFO] ✓ 缓存的Cookie有效
+2026-04-28 14:20:29,371 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5
+2026-04-28 14:20:35,975 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [stepping] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:36,986 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling
+2026-04-28 14:20:42,593 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [stepping] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:43,595 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress
+2026-04-28 14:20:48,738 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [stepping] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:49,740 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86
+2026-04-28 14:20:57,320 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [stepping] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:58,321 [INFO] ============================================================
+2026-04-28 14:20:58,322 [INFO] 完成: 成功=0  失败=4  共=4
+2026-04-28 14:20:58,322 [INFO] 分类统计: 无更新=0  更新成功=0  更新失败=0  新建=0
+2026-04-28 14:20:58,331 [INFO] 结果已保存: hsdes_create_results.json
+2026-04-28 14:20:58,332 [WARNING] 行 0: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5 → PreinsertHandler preinsert Failed: [stepping] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:58,333 [WARNING] 行 1: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling → PreinsertHandler preinsert Failed: [stepping] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:58,333 [WARNING] 行 2: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress → PreinsertHandler preinsert Failed: [stepping] is NOT a valid field for server_platf.test_case
+2026-04-28 14:20:58,334 [WARNING] 行 3: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86 → PreinsertHandler preinsert Failed: [stepping] is NOT a valid field for server_platf.test_case
+2026-04-28 14:21:13,824 [INFO] 读取 Excel: WO_Template-xfusion-DDR.xlsx  工作表: WO_Template  共 4 条记录
+2026-04-28 14:21:13,825 [INFO] 
+============================================================
+2026-04-28 14:21:13,825 [INFO] 🧭 首次运行向导
+2026-04-28 14:21:13,825 [INFO] ============================================================
+2026-04-28 14:21:13,826 [INFO] Excel: WO_Template-xfusion-DDR.xlsx
+2026-04-28 14:21:13,826 [INFO] 记录数: 4
+2026-04-28 14:21:13,826 [INFO] API URL: https://hsdes.intel.com/ws/ESService
+2026-04-28 14:21:13,826 [INFO] Cookie缓存: 启用 (C:\Users\qianhu2x\.hsdes_cookie_cache)
+2026-04-28 14:21:13,826 [INFO] 
+请选择本次执行方式:
+2026-04-28 14:21:13,827 [INFO] 1. 先 dry-run 预览 payload 后退出
+2026-04-28 14:21:13,827 [INFO] 2. 直接正式创建 ticket
+2026-04-28 14:21:13,827 [INFO] 3. 退出
+2026-04-28 14:21:15,593 [INFO] 继续正式创建流程。
+2026-04-28 14:21:15,595 [INFO] ✓ Excel写回预检查通过
+2026-04-28 14:21:15,597 [INFO] ℹ️ Cookie缓存路径: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:21:15,598 [INFO] 📂 使用本地缓存的Cookie: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:21:16,053 [INFO] ✓ 缓存的Cookie有效
+2026-04-28 14:21:16,054 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5
+2026-04-28 14:21:21,496 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [segment] is NOT a valid field for server_platf.test_case
+2026-04-28 14:21:22,498 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling
+2026-04-28 14:21:27,616 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [segment] is NOT a valid field for server_platf.test_case
+2026-04-28 14:21:28,622 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress
+2026-04-28 14:21:33,799 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [segment] is NOT a valid field for server_platf.test_case
+2026-04-28 14:21:34,807 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86
+2026-04-28 14:21:40,782 [ERROR]   ✗ 创建失败: PreinsertHandler preinsert Failed: [segment] is NOT a valid field for server_platf.test_case
+2026-04-28 14:21:41,784 [INFO] ============================================================
+2026-04-28 14:21:41,786 [INFO] 完成: 成功=0  失败=4  共=4
+2026-04-28 14:21:41,787 [INFO] 分类统计: 无更新=0  更新成功=0  更新失败=0  新建=0
+2026-04-28 14:21:41,795 [INFO] 结果已保存: hsdes_create_results.json
+2026-04-28 14:21:41,796 [WARNING] 行 0: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5 → PreinsertHandler preinsert Failed: [segment] is NOT a valid field for server_platf.test_case
+2026-04-28 14:21:41,797 [WARNING] 行 1: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling → PreinsertHandler preinsert Failed: [segment] is NOT a valid field for server_platf.test_case
+2026-04-28 14:21:41,797 [WARNING] 行 2: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress → PreinsertHandler preinsert Failed: [segment] is NOT a valid field for server_platf.test_case
+2026-04-28 14:21:41,798 [WARNING] 行 3: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86 → PreinsertHandler preinsert Failed: [segment] is NOT a valid field for server_platf.test_case
+2026-04-28 14:22:02,380 [INFO] 读取 Excel: WO_Template-xfusion-DDR.xlsx  工作表: WO_Template  共 4 条记录
+2026-04-28 14:22:02,380 [INFO] 
+============================================================
+2026-04-28 14:22:02,380 [INFO] 🧭 首次运行向导
+2026-04-28 14:22:02,380 [INFO] ============================================================
+2026-04-28 14:22:02,380 [INFO] Excel: WO_Template-xfusion-DDR.xlsx
+2026-04-28 14:22:02,380 [INFO] 记录数: 4
+2026-04-28 14:22:02,382 [INFO] API URL: https://hsdes.intel.com/ws/ESService
+2026-04-28 14:22:02,382 [INFO] Cookie缓存: 启用 (C:\Users\qianhu2x\.hsdes_cookie_cache)
+2026-04-28 14:22:02,382 [INFO] 
+请选择本次执行方式:
+2026-04-28 14:22:02,382 [INFO] 1. 先 dry-run 预览 payload 后退出
+2026-04-28 14:22:02,382 [INFO] 2. 直接正式创建 ticket
+2026-04-28 14:22:02,382 [INFO] 3. 退出
+2026-04-28 14:22:03,801 [INFO] 继续正式创建流程。
+2026-04-28 14:22:03,802 [INFO] ✓ Excel写回预检查通过
+2026-04-28 14:22:03,803 [INFO] ℹ️ Cookie缓存路径: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:22:03,804 [INFO] 📂 使用本地缓存的Cookie: C:\Users\qianhu2x\.hsdes_cookie_cache
+2026-04-28 14:22:04,427 [INFO] ✓ 缓存的Cookie有效
+2026-04-28 14:22:04,428 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5
+2026-04-28 14:22:16,259 [INFO]   ✓ 已补充更新 free_tag 字段
+2026-04-28 14:22:16,259 [INFO]   ✅ 创建成功  ticket_id=15019342871
+2026-04-28 14:22:17,267 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling
+2026-04-28 14:22:25,792 [INFO]   ✓ 已补充更新 free_tag 字段
+2026-04-28 14:22:25,793 [INFO]   ✅ 创建成功  ticket_id=15019342872
+2026-04-28 14:22:26,798 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress
+2026-04-28 14:22:35,091 [INFO]   ✓ 已补充更新 free_tag 字段
+2026-04-28 14:22:35,092 [INFO]   ✅ 创建成功  ticket_id=15019342873
+2026-04-28 14:22:36,106 [INFO] → 创建 ticket: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86
+2026-04-28 14:22:44,253 [INFO]   ✓ 已补充更新 free_tag 字段
+2026-04-28 14:22:44,254 [INFO]   ✅ 创建成功  ticket_id=15019342876
+2026-04-28 14:22:45,265 [INFO] ============================================================
+2026-04-28 14:22:45,266 [INFO] 完成: 成功=4  失败=0  共=4
+2026-04-28 14:22:45,266 [INFO] 分类统计: 无更新=0  更新成功=0  更新失败=0  新建=4
+2026-04-28 14:22:45,276 [INFO] 结果已保存: hsdes_create_results.json
+2026-04-28 14:22:46,074 [INFO] 📝 已回写Excel ticket_id列: 更新 4 条记录
+2026-04-28 14:22:46,075 [INFO] ============================================================
+2026-04-28 14:22:46,075 [INFO] ✅ 创建成功的 Ticket ID:
+2026-04-28 14:22:46,075 [INFO]   行 0: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 RMT_2x5x5 → ticket_id=15019342871
+2026-04-28 14:22:46,076 [INFO]   行 1: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Power_Cycling → ticket_id=15019342872
+2026-04-28 14:22:46,076 [INFO]   行 2: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 I3C Stress → ticket_id=15019342873
+2026-04-28 14:22:46,076 [INFO]   行 3: [WO][DMR DDR NTA][xFusion 2188H V9] xFusion XF55-H02E 1DPC 8000 Memtest86 → ticket_id=15019342876
+2026-04-28 14:22:46,076 [INFO] ============================================================
